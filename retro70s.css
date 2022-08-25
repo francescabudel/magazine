@@ -61,7 +61,7 @@ body {
     content: "";
     clear: both;
     display: table;
-    background-image: url('file:///C:/Users/sebas/OneDrive/Desktop/Information%20Modelling/Progetto/images/cover-bg.png') !important;
+    background-image: url('images/cover-bg.png') !important;
 }
 
 h1, .author {

@@ -84,7 +84,7 @@ header {
     padding-right: 3%;
 }
 
-nav > ul {
+nav > ul, #themes-list {
     text-align: center;
     list-style-type: none;
     margin-left: auto;
@@ -95,13 +95,13 @@ nav > ul {
     border-top: solid 2px #efd6ac;
     border-bottom: solid 2px #efd6ac;
 }
-nav > ul > li {
+nav > ul > li, #themes-list > li {
     display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
     color: rgb(130, 130, 130)
 }
-nav > ul > li a:hover {
+ul > li a:hover {
     color: #183a37
 }
 .home-section {
@@ -155,7 +155,11 @@ section > p {
 #issueList li {
     padding: 5px
 }*/
-nav li a {
+ul li a {
     text-decoration: none;
     color: rgb(130, 130, 130)
+}
+
+#themes-list {
+    margin-top: -18px!important;
 }

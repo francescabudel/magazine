@@ -7,7 +7,7 @@ function changeStylesheet(css) {
     else {
         addStylesheet(css);
     }
-    if (css = '../retro70s.css') {
+    if (css == '../retro70s.css') {
         var innerArticle = document.getElementById('article-inner');
         const img1 = document.createElement('img'), img2 = document.createElement('img');
         img1.setAttribute('id', 'over-img-1');

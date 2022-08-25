@@ -41,7 +41,7 @@ nav {
 
 body {
     width: 100%;
-    background-image: url('file:///C:/Users/sebas/OneDrive/Desktop/Information%20Modelling/Progetto/images/retro70s-bg.png');
+    background-image: url('images/retro70s-bg.png');
     background-size: 100% 100%;
     background-attachment: fixed;
     font-family: 'body';
@@ -151,7 +151,7 @@ h1 {
     background-image: 
 
         url(https://i.ibb.co/vJt5HSh/noisy-texture-300x300-o10-d10-c-a82851-t1.png),
-        url('file:///C:/Users/sebas/OneDrive/Desktop/Information%20Modelling/Progetto/images/70s-articlebg.png');
+        url('images/70s-articlebg.png');
 }
 
 .pubnote {

@@ -68,7 +68,7 @@ h1 {
     content: "";
     clear: both;
     display: table;
-    background-image: url('file:///C:/Users/sebas/OneDrive/Desktop/Information%20Modelling/Progetto/images/70s-articlebg.png');
+    background-image: url('https://typantheon.github.io/magazine/images/70s-articlebg.png');
     background-position: center;
     text-transform: uppercase;
 }
@@ -118,7 +118,7 @@ h1 {
     font-size: 1.2em !important;
 }
 #article-inner {
-    background-image: url('images/70s-articleinnerbg2.png'), url('images/70s-articleinnerbg3.png'), url('file:///C:/Users/sebas/OneDrive/Desktop/Information%20Modelling/Progetto/images/70s-articleinnerbg.png');
+    background-image: url('images/70s-articleinnerbg2.png'), url('images/70s-articleinnerbg3.png'), url('https://typantheon.github.io/magazine/images/70s-articleinnerbg.png');
     background-repeat: no-repeat, no-repeat, repeat;
     background-position: top, bottom, top;
     padding-top: 3em;

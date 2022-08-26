@@ -84,6 +84,11 @@ header {
     padding-right: 3%;
 }
 
+img {
+    max-width: 50em;
+    max-height: 600px;
+}
+
 nav > ul, #themes-list {
     text-align: center;
     list-style-type: none;

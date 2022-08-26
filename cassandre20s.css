@@ -16,14 +16,19 @@
 /* the navbar */
 
 nav {
-   position: fixed;
+   position: absolute;
    width: 100%;
    left: 0;
    top: -10px;
    z-index:101;
 }
 
-nav > ul {
+#themes-list {
+    position: absolute;
+    margin-top: -90px!important;
+}
+
+nav > ul, #themes-list {
     background-color: #cf4b3a;
     font-family: 'title-inner';
     padding-top: 0px;
@@ -35,6 +40,16 @@ nav > ul > li, nav a {
     font-size: 28px;
 }
 
+#themes-list > li, #themes-list a {
+    color: #cf4b3a!important;
+    font-size: 22px;
+}
+
+#themes-list {
+    background-color: #f8f0e2;
+    width: 100%;
+    left: 0;
+}
 
 /* the article */
 
@@ -64,11 +79,11 @@ h1 {
 }
 
 #article {
-    margin-top: 100px !important;
+    margin-top: 170px !important;
     content: "";
     clear: both;
     display: table;
-    background-image: url('https://typantheon.github.io/magazine/images/70s-articlebg.png');
+    background-image: url('file:///C:/Users/sebas/OneDrive/Desktop/Information%20Modelling/Progetto/images/70s-articlebg.png');
     background-position: center;
     text-transform: uppercase;
 }
@@ -118,7 +133,7 @@ h1 {
     font-size: 1.2em !important;
 }
 #article-inner {
-    background-image: url('images/70s-articleinnerbg2.png'), url('images/70s-articleinnerbg3.png'), url('https://typantheon.github.io/magazine/images/70s-articleinnerbg.png');
+    background-image: url('images/70s-articleinnerbg2.png'), url('images/70s-articleinnerbg3.png'), url('file:///C:/Users/sebas/OneDrive/Desktop/Information%20Modelling/Progetto/images/70s-articleinnerbg.png');
     background-repeat: no-repeat, no-repeat, repeat;
     background-position: top, bottom, top;
     padding-top: 3em;
@@ -182,6 +197,7 @@ hr {
 
 .full-width {
     max-width: 700px;
+    max-height: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -277,3 +293,4 @@ blockquote {
     margin-top: 80px!important;
     float: right !important;
 }
+

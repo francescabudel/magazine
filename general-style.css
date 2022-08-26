@@ -9,9 +9,9 @@ body {
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
 }
 
 header {
@@ -100,6 +100,7 @@ nav > ul, #themes-list {
     padding-bottom: 8px;
     border-top: solid 2px #efd6ac;
     border-bottom: solid 2px #efd6ac;
+    background-color: #fff;
 }
 nav > ul > li, #themes-list > li {
     display: inline-block;

@@ -25,6 +25,7 @@ nav {
 
 #themes-list {
     position: absolute;
+    margin-top: 70px;
 }
 
 nav > ul, #themes-list {

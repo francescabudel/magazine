@@ -181,7 +181,7 @@ table {
 /* metadata viewer */
 
 #metadata-viewer {
-   padding: 1em !important;
+   padding: 18px !important;
    background-color: #fffdf4;
    position:fixed;
    left:0;
@@ -197,7 +197,7 @@ table {
    z-index: 100;
    height: calc(100vh - 160px);
    font-family: 'Lora', sans-serif !important;
-   font-size: 22px !important;
+   font-size: 18px !important;
 }
 
 #metadata-viewer > hr{

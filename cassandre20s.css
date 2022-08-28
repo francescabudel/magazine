@@ -313,8 +313,24 @@ table {
     border: 1em solid #656770;
 }
 
-th, tr {
+th, td {
     text-align: center;
-    border: 5px solid #cf4b3a;
+    border: 1px solid #cf4b3a;
     padding: 0.3em;
+}
+
+th {
+    border-top: none!important;
+}
+
+td:first-child {
+    border-left: none !important;
+}
+
+td:last-child {
+    border-right: none!important;
+}
+
+tr:last-child > td {
+    border-bottom: none!important;
 }

@@ -355,10 +355,13 @@ blockquote {
 }
 
 table {
-    padding: 1em;
     border-radius: 10px;
     font-size: 0.8em;
     border: solid 4px #27315D;
+}
+
+td {
+        padding: 1em;
 }
 
 th {

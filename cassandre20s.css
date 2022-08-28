@@ -309,3 +309,12 @@ blockquote {
     float: right !important;
 }
 
+table {
+    border: 1em solid #656770;
+}
+
+th, tr {
+    text-align: center;
+    border: 5px solid #cf4b3a;
+    padding: 0.3em;
+}

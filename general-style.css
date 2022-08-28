@@ -206,6 +206,27 @@ table {
    background-image: none!important;
 }
 
+label{
+    display:block;
+    font-weight:700;
+    background:#1ea1b8;
+    width:42px;
+    height:42px;
+    line-height:42px;
+    color:#fff;
+    text-align:center;
+    font-size:2em;
+    line-height:1.1em;
+    position:fixed;
+    top:160px;
+    left:10px;
+    -moz-transition:all 200ms ease-in;
+    -webkit-transition:all 200ms ease-in;
+    -o-transition:all 200ms ease-in;
+    transition:all 200ms ease-in;
+    z-index:500;
+}
+
 input[type="checkbox"]{
     display:none;
 }
@@ -213,7 +234,7 @@ input[type="checkbox"]:checked ~ #metadata-viewer{
     margin:0;
 }
 input[type="checkbox"]:checked ~ label{
-    left:300px;
+    left:260px;
 }
 input[type="checkbox"]:checked ~ #articleToRead{
     -webkit-transform:translate3d(150px, 0, 0);

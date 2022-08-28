@@ -319,7 +319,11 @@ th, td {
     padding: 0.3em;
 }
 
-th {
+td {
+    margin: 0;
+}
+
+th, th + tr {
     border-top: none!important;
 }
 

@@ -177,3 +177,36 @@ table {
     margin-right: auto;
     border-spacing: 0px !important;
 }
+
+/* metadata viewer */
+
+#metadata-viewer {
+   background-color: #fffdf4;
+   position:fixed;
+   left:0;
+   max-width: 500px;
+   border-right: 1pt solid #efd6ac;
+   top: 100px;
+   margin:0 0 0 -250px;
+   -moz-transition:all 200ms ease-in;
+   -webkit-transition:all 200ms ease-in;
+   -o-transition:all 200ms ease-in;
+   transition:all 200ms ease-in;
+   z-index: 100;
+}
+input[type="checkbox"]{
+    display:none;
+}
+input[type="checkbox"]:checked ~ #metadata-viewer{
+    margin:0;
+}
+input[type="checkbox"]:checked ~ label{
+    left:260px;
+}
+input[type="checkbox"]:checked ~ #articleToRead{
+    -webkit-transform:translate3d(260px, 0, 0);
+    -moz-transform:translate3d(260px, 0, 0);
+    -o-transform:translate3d(260px, 0, 0);
+    transform:translate3d(260px, 0, 0);
+}
+

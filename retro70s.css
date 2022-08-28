@@ -291,14 +291,14 @@ hr {
 h3 {
     color: #FFF1D2;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.3em;
     text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
 }
 
 h4 {
     color: #FFF1D2;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
 }
 
@@ -348,4 +348,8 @@ blockquote {
 .left img{
     -webkit-box-shadow: -4px -4px 0px 4px #27315D, -4px 4px 0px 4px #27315D, -7px 7px 0px 7px #51AEA7, -7px -7px 0px 7px #51AEA7, -10px -10px 0px 10px #F6AB5A, -10px 10px 0px 10px #F6AB5A, -13px 13px 0px 13px #D95852, -13px -13px 0px 13px #D95852; 
     box-shadow: -4px -4px 0px 4px #27315D, -4px 4px 0px 4px #27315D, -7px 7px 0px 7px #51AEA7, -7px -7px 0px 7px #51AEA7, -10px -10px 0px 10px #F6AB5A, -10px 10px 0px 10px #F6AB5A, -13px 13px 0px 13px #D95852, -13px -13px 0px 13px #D95852;
+}
+
+table {
+    font-size: 0.8em;
 }

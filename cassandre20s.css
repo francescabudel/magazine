@@ -155,7 +155,7 @@ h1 {
 #article-inner img {
     border: #656770 solid 1em;
 }
-#article-inner > p, #article-inner > a, div > p  {
+#article-inner > p, #article-inner > a, #article-inner > div > p  {
     display: block;
     margin-top: 1em;
     text-align: justify;
@@ -188,14 +188,14 @@ h2 {
     text-align: center;
     color: #cf4b3a;
 }
-hr {
+#article-inner > hr {
     display:block;
     border:0px;
     height:100px;
     width: 100px;
     background-image:url('images/4.png');
 }
-hr + p::first-letter, hr + h3 + p::first-letter {
+#article-inner > hr + p::first-letter, #article-inner hr + h3 + p::first-letter {
     font-size: 6.2em;
     float: left;
     line-height: 0.7;

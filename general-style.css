@@ -185,7 +185,7 @@ table {
    background-color: #fffdf4;
    position:fixed;
    left:0;
-   max-width: 500px;
+   max-width: 300px !important;
    border-right: 1pt solid #efd6ac;
    border-top: 1pt solid #efd6ac;
    top: 155px;
@@ -215,9 +215,9 @@ input[type="checkbox"]:checked ~ label{
     left:200px;
 }
 input[type="checkbox"]:checked ~ #articleToRead{
-    -webkit-transform:translate3d(300px, 0, 0);
-    -moz-transform:translate3d(300px, 0, 0);
-    -o-transform:translate3d(300px, 0, 0);
-    transform:translate3d(300px, 0, 0);
+    -webkit-transform:translate3d(100px, 0, 0);
+    -moz-transform:translate3d(100px, 0, 0);
+    -o-transform:translate3d(100px, 0, 0);
+    transform:translate3d(100px, 0, 0);
 }
 

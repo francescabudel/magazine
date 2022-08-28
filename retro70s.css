@@ -360,7 +360,7 @@ table {
     border: solid 4px #27315D;
 }
 
-td {
+td, th {
         padding: 1em;
 }
 

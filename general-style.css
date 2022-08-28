@@ -181,11 +181,11 @@ table {
 /* metadata viewer */
 
 #metadata-viewer {
-   padding: 1em;
+   padding: 1em !important;
    background-color: #fffdf4;
    position:fixed;
    left:0;
-   max-width: 300px !important;
+   width: 300px !important;
    border-right: 1pt solid #efd6ac;
    border-top: 1pt solid #efd6ac;
    top: 155px;
@@ -197,6 +197,7 @@ table {
    z-index: 100;
    height: calc(100vh - 160px);
    font-family: 'Lora', sans-serif !important;
+   font-size: 22px !important;
 }
 
 #metadata-viewer > hr{
@@ -212,7 +213,7 @@ input[type="checkbox"]:checked ~ #metadata-viewer{
     margin:0;
 }
 input[type="checkbox"]:checked ~ label{
-    left:200px;
+    left:0px;
 }
 input[type="checkbox"]:checked ~ #articleToRead{
     -webkit-transform:translate3d(100px, 0, 0);

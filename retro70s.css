@@ -353,3 +353,6 @@ blockquote {
 table {
     font-size: 0.8em;
 }
+#article-inner > ul > li {
+    font-size: 0.7em !important;
+}

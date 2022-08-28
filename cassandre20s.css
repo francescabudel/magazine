@@ -245,6 +245,16 @@ h3 {
     font-size: 2em;
 }
 
+h4 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#article-inner ul {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
 blockquote {
     margin-top: 1em;
     text-align: justify;

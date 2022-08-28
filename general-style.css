@@ -201,7 +201,8 @@ table {
 }
 
 #metadata-viewer > p {
-   padding: 18px !important;
+   padding-left: 18px !important;
+   width: 100% !important;
 }
 
 #metadata-viewer > hr{

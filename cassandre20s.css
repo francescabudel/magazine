@@ -241,11 +241,13 @@ figcaption {
 }
 
 h3 {
+    font-family: 'title-inner';
     text-align: center;
     font-size: 2em;
 }
 
 h4 {
+    font-family: 'title-inner';
     text-align: center;
     font-size: 1.5em;
 }

@@ -181,7 +181,7 @@ h1 {
     filter: none!important
 }
 
-#article-inner > p, div > p, #article-inner a {
+#article-inner > p, div > p, #article-inner a, #article-inner > ul > li {
     font-size: 0.9em;
     margin-top: 1em;
     line-height: 1.6em;

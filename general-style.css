@@ -186,14 +186,22 @@ table {
    left:0;
    max-width: 500px;
    border-right: 1pt solid #efd6ac;
-   top: 100px;
+   top: 160px;
    margin:0 0 0 -250px;
    -moz-transition:all 200ms ease-in;
    -webkit-transition:all 200ms ease-in;
    -o-transition:all 200ms ease-in;
    transition:all 200ms ease-in;
    z-index: 100;
+   height: calc(100vh - 160px);
+   font-family: 'Lora', sans-serif !important;
 }
+
+#metadata-viewer > hr{
+   color: #efd6ac !important;
+   width: 80%;
+}
+
 input[type="checkbox"]{
     display:none;
 }
@@ -201,12 +209,12 @@ input[type="checkbox"]:checked ~ #metadata-viewer{
     margin:0;
 }
 input[type="checkbox"]:checked ~ label{
-    left:260px;
+    left:200px;
 }
 input[type="checkbox"]:checked ~ #articleToRead{
-    -webkit-transform:translate3d(260px, 0, 0);
-    -moz-transform:translate3d(260px, 0, 0);
-    -o-transform:translate3d(260px, 0, 0);
-    transform:translate3d(260px, 0, 0);
+    -webkit-transform:translate3d(200px, 0, 0);
+    -moz-transform:translate3d(200px, 0, 0);
+    -o-transform:translate3d(200px, 0, 0);
+    transform:translate3d(200px, 0, 0);
 }
 

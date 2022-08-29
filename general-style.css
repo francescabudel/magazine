@@ -249,7 +249,7 @@ input[type="checkbox"]:checked ~ #articleToRead{
 }
 
 .bolder {
-    font-weight: 500;
+    font-weight: 900;
 }
 #meta-info > ul {
     font-size: 16px;

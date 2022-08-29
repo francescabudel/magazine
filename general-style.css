@@ -194,7 +194,7 @@ table {
    -webkit-transition:all 200ms ease-in;
    -o-transition:all 200ms ease-in;
    transition:all 200ms ease-in;
-   z-index: 100;
+   z-index: 600;
    height: 100vh;
    font-family: 'Lora', sans-serif !important;
    font-size: 18px !important;

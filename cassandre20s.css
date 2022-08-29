@@ -13,6 +13,11 @@
     src: url('acier-display-noir.ttf');
 }
 
+
+html {
+    overflow-x: hidden;
+}
+
 /* the navbar */
 
 nav {

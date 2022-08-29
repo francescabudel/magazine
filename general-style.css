@@ -214,7 +214,7 @@ table {
 label{
     display:block;
     font-weight:700;
-    background:#1ea1b8;
+    background:#748484;
     width:42px;
     height:42px;
     line-height:42px;
@@ -229,7 +229,7 @@ label{
     -webkit-transition:all 200ms ease-in;
     -o-transition:all 200ms ease-in;
     transition:all 200ms ease-in;
-    z-index:500;
+    z-index:601;
 }
 
 input[type="checkbox"]{

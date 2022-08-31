@@ -165,7 +165,7 @@ h1 {
     padding-left: 5em;
     padding-right: 5em;
     width: calc(100% - 10em);
-    font-size: 18px;
+    font-size: 18pt;
     color: #656770;
 }
 
@@ -174,7 +174,7 @@ h1 {
 }
 
 .pubnote {
-    font-size: 2em !important;
+    font-size: 24pt !important;
     font-family: 'body';
     color: #656770;
     width: 75% !important;
@@ -317,6 +317,7 @@ blockquote {
 
 table {
     border: 1em solid #656770;
+    font-size: 18pt;
 }
 
 th, td {

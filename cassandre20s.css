@@ -186,7 +186,7 @@ h1 {
 
 h2 {
     padding-top: 2em;
-    font-size: 2.2em;
+    font-size: 48pt;
     font-family: 'title-inner';
     text-align: center;
     color: #cf4b3a;
@@ -247,13 +247,13 @@ figcaption {
 h3 {
     font-family: 'title-inner';
     text-align: center;
-    font-size: 2em;
+    font-size: 36pt;
 }
 
 h4 {
     font-family: 'title-inner';
     text-align: center;
-    font-size: 1.5em;
+    font-size: 24pt;
 }
 
 #article-inner ul {

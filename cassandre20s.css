@@ -113,8 +113,8 @@ h1 {
 }
 
 .header-img {
-    width:40em;
-    height: 30em;
+    width:35em;
+    height: 35em;
 }
 #article figcaption {
     width: 70%;
@@ -229,7 +229,7 @@ figcaption {
     border: solid #cf4b3a 3px;
     background-color: #cf4b3a;
     text-align: center;
-    font-size: 16px;
+    font-size: 12pt;
     line-height: 1em;
     width: 80%;
     padding: 0.6em;

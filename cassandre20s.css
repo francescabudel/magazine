@@ -115,6 +115,7 @@ h1 {
 .header-img {
     width:35em;
     height: 35em;
+    object-fit:cover;
 }
 #article figcaption {
     width: 70%;

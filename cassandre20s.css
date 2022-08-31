@@ -166,7 +166,7 @@ h1 {
     padding-left: 5em;
     padding-right: 5em;
     width: calc(100% - 10em);
-    font-size: 18pt;
+    font-size: 14pt;
     color: #656770;
 }
 
@@ -318,7 +318,7 @@ blockquote {
 
 table {
     border: 1em solid #656770;
-    font-size: 18pt;
+    font-size: 14pt;
 }
 
 th, td {

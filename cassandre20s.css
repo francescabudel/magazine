@@ -141,9 +141,7 @@ h1 {
     color: #656770;
     text-align: center;
 }
-#surname {
-    font-size: 1.2em !important;
-}
+
 #article-inner {
     background-image: url('images/70s-articleinnerbg2.png'), url('images/70s-articleinnerbg3.png'), url('images/70s-articleinnerbg.png');
     background-repeat: no-repeat, no-repeat, repeat;
